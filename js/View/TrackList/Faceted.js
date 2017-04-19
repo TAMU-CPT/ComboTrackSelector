@@ -46,9 +46,7 @@ return declare( 'ComboTrackSelector.View.TrackList.Faceted', JBrowse.View.TrackL
         dojo.create('div',
             {
                 className: 'faceted_tracksel_on_off tab',
-                innerHTML: '</div><img src="' + this.browser.resolveUrl('plugins/ComboTrackSelector/img/faceted_icon.png') +
-                           '"><div>' + title_list + '</div><img src="' +
-                           this.browser.resolveUrl('plugins/ComboTrackSelector/img/green_right_arrow.png') + '">'
+                innerHTML: '</div><div>' + title_list + '</div>'
             },
             this.containerElem
         );
